@@ -13,6 +13,9 @@
             <router-link class="nav-link" to="/addEmployee">Add Employee</router-link>
           </li>
           <br />
+          <li class="nav-item">
+            <router-link class="nav-link" to="/addEmployee">Employees</router-link>
+          </li>
         </ul>
       </div>
     </nav>
