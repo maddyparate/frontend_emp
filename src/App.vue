@@ -2,21 +2,17 @@
   <div>
     <nav class="navbar navbar-dark bg-primary justify-content-between flex no-wrap flex-row">
       <div class="container mt-3">
-        <a class="navbar-brand float-left">Employee Payroll APP</a>
+        <a class="navbar-brand float-left">EMPLOYEE PORTAL <br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="./assets/emp.png" alt="img-fluid"></a>
         <ul class="nav navbar-nav flex-row">
 
           <li class="nav-item">
             <router-link class="nav-link pr-3" to="/">Home</router-link>
           </li>
-
-          <li class="nav-item">Employee
-            <router-link class="nav-link" to="/addCustomer">Add Employee</router-link>
-          </li>
-
+          <br /> 
           <li class="nav-item">
-            <router-link class="nav-link" to="/customers">CEmployees</router-link>
+            <router-link class="nav-link" to="/addEmployee">Add Employee</router-link>
           </li>
-
+          <br />
         </ul>
       </div>
     </nav>

@@ -58,7 +58,7 @@ export default {
     methods: {
       onSubmit(event) {
         event.preventDefault()
-        let apiUrl = "http://localhost:8080/api/banking/addCustomer"
+        let apiUrl = "http://localhost:8081/api/employee/addCustomer"
 
         this.$emit('submit',this.employee)
 
