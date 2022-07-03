@@ -14,7 +14,13 @@
           </li>
           <br />
           <li class="nav-item">
-            <router-link class="nav-link" to="/addEmployee">Employees</router-link>
+            <router-link class="nav-link" to="/employees">Employees</router-link>
+          </li>
+          <li class="nav-item">
+            <router-link class="nav-link" to="/login">Login</router-link>
+          </li>
+          <li class="nav-item">
+            <router-link class="nav-link" to="/signup">SignUp</router-link>
           </li>
         </ul>
       </div>
@@ -31,6 +37,8 @@
 <script>
 
 import AddEmployee from '../src/components/AddEmployee.vue'
+import Login from './components/Login.vue'
+import SignUp from './components/SignUp.vue'
 export default {
     name:'App',
     data(){
@@ -39,9 +47,13 @@ export default {
       }
     },
     components:{
-      AddEmployee
-    }
+      AddEmployee,
+      Login,
+      SignUp
+    },
+    
 }
+
 </script>
 
 <style>

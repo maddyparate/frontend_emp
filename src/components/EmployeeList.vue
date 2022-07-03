@@ -39,19 +39,19 @@
         <b-modal id="edit-employee" title="Edit Employee">
             <b-form @submit.prevent="handleEditEmployeeForm">
                 <b-form-group id="input-group-2" label="Your Name:" label-for="input-2">
-                    <b-form-input id="input-2" v-model="employee.name" placeholder="Enter name" required></b-form-input>
+                    <b-form-input  v-model="employee.name" placeholder="Enter name" required></b-form-input>
                 </b-form-group>
 
                 <b-form-group id="input-group-2" label="Address:" label-for="input-2">
-                    <b-form-input id="input-2" v-model="employee.address" placeholder="Enter Address" required></b-form-input>
+                    <b-form-input  v-model="employee.address" placeholder="Enter Address" required></b-form-input>
                 </b-form-group>
 
                 <b-form-group id="input-group-2" label="Mobile:" label-for="input-2">
-                    <b-form-input id="input-2" v-model="employee.mobile" placeholder="Enter Phone Number" required></b-form-input>
+                    <b-form-input  v-model="employee.mobile" placeholder="Enter Phone Number" required></b-form-input>
                 </b-form-group>
 
                 <b-form-group id="input-group-2" label="Email:" label-for="input-2">
-                    <b-form-input id="input-2" v-model="employee.email" placeholder="Enter Email" required></b-form-input>
+                    <b-form-input  v-model="employee.email" placeholder="Enter Email" required></b-form-input>
                 </b-form-group>
                 <br />
                 <b-button type="submit" variant="primary">Update</b-button>
